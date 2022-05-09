@@ -775,7 +775,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+}
+
+.tc-orange{
+    color: #a42a42!important;
 }
 
 .btn-atomic-tangerine {
@@ -823,6 +827,27 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.description {
+    font-size: 22px;
+    margin: auto;
+    width: 65%;
+}
+
+.quote {
+    display: block;
+    margin: auto;
+    quotes: none;
+    font-size: 20px;
+    font-style: italic;
+    width: 85%;
+    color: #313030;
+}
+
+.author {
+    font-style: normal;
+    font-size: initial;
 }
 
 @media (max-width: 1024px) {
