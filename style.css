@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +702,13 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+.container-social {
+    margin: auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -974,7 +981,7 @@ h4 {
         color: rgba(255, 255, 255, .6);
     }
     .hero {
-        padding: 50px 0;
+        padding: 16px 0;
     }
     .hero-nav {
         left: -1px;
